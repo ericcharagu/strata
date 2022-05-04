@@ -1,0 +1,41 @@
+#conDiv {
+    width: 70%;
+}
+
+
+.outerB {
+    background-image: linear-gradient(to right top, rgb(238, 174, 202), rgb(148, 187, 233));
+    height: 90%;
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.innerB {
+    background-color: white;
+    height: 98%;
+    width: 98%;
+    margin: auto;
+    color: black;
+}
+
+#numTxt {
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-size: 4.5em;
+    margin: auto;
+}
+
+.aboutDesc {
+    color: rgb(184, 150, 65);
+    float: left;
+}
+
+h3,
+p {
+    padding: 10px;
+    float: left;
+}

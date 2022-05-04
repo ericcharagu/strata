@@ -1,0 +1,29 @@
+.projectDetails {
+  list-style-type: none;
+}
+
+.projectDetails li {
+  padding: 20px;
+
+}
+
+#modelDiv {
+  width: 55%;
+  margin: auto;
+}
+
+#modelDiv ul h3 {
+  color: rgb(184, 150, 65)
+}
+
+/* Remove card borders */
+.bg-secondary {
+  --bs-bg-opacity: 0;
+}
+
+#modelDiv ul li {
+  font-family: Tahoma;
+  margin: auto;
+  text-align: center;
+  float: center;
+}

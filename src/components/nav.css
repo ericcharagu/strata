@@ -1,0 +1,18 @@
+.nav-list {
+  list-style: none;
+  display: inline;
+}
+
+.nav-list li {
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  border-right: 2px black;
+}
+
+#nav {
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  opacity: 0.5;
+}
