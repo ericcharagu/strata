@@ -1,7 +1,7 @@
 import React from "react";
-import "./contacts.css";
+import "./about.css";
 import { Card, Row, Col } from "react-bootstrap";
-function Contacts() {
+function About() {
   return (
     <div className="container-fluid" id="conDiv">
       <Card
@@ -10,18 +10,18 @@ function Contacts() {
       >
         <Card.Body>
           <div className="row">
-            <Col style={{ borderRight: "1px solid" }}>
+            <div className="col-6" style={{ borderRight: "1px solid" }}>
               <div className="outerB">
                 <div className="innerB">
-                  <h5 id="numTxt">12</h5>
-                  <p id="numDesc">Years of experiences</p>
+                  <h5 id="numTxt">3.5</h5>
+                  <h5 id="numDesc">million shillings saved</h5>
                 </div>
               </div>
-            </Col>
-            <Col>
+            </div>
+            <div className="col-6">
               <p className="aboutDesc"> ABOUT US</p>
               <h3>Sustainable buildings for sustianable...</h3>
-              <p>
+              <p style={{padding:"10px"}}>
                 Based on collective work and shared knowledge,
                 Architecture-Studio aims to favour dialogue and debate, to
                 transform individual knowledge into increased creative
@@ -33,7 +33,7 @@ function Contacts() {
                 has believed in the virtues of exchange, crossing ideas, common
                 effort, shred knowledge.
               </p>
-            </Col>
+            </div>
           </div>
         </Card.Body>
       </Card>
@@ -41,4 +41,4 @@ function Contacts() {
   );
 }
 
-export default Contacts;
+export default About;

@@ -47,7 +47,7 @@ function Model() {
           >
             <Row>
               <Card.Img
-                className="col-6"
+                className="col-5"
                 style={{
                   height: "320px",
                   width: "450px",
@@ -56,7 +56,7 @@ function Model() {
                 src={val.image}
                 id="cardImage"
               />
-              <Card.Body className="col-4">
+              <Card.Body className="col-5">
                 <Card.Text>
                   <ul className="projectDetails">
                     <li>

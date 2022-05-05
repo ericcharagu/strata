@@ -8,8 +8,9 @@
 }
 
 #modelDiv {
-  width: 55%;
+  width: 66%;
   margin: auto;
+  padding-bottom: 70px;
 }
 
 #modelDiv ul h3 {
@@ -22,7 +23,7 @@
 }
 
 #modelDiv ul li {
-  font-family: Tahoma;
+
   margin: auto;
   text-align: center;
   float: center;
