@@ -1,0 +1,12 @@
+.contactBtn {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid rgb(184, 150, 65);
+    text-decoration: none;
+    color: blanchedalmond
+}
+
+.contactBtn:hover {
+    color: inherit;
+    background: rgb(184, 150, 65);
+}

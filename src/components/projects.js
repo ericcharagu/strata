@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./projects.css";
+import { FaArrowRight } from "react-icons/fa";
 
 import { Card, Table, CardGroup, Row } from "react-bootstrap";
 
@@ -49,8 +50,8 @@ function Model() {
               <Card.Img
                 className="col-5"
                 style={{
-                  height: "320px",
-                  width: "450px",
+                  height: "260px",
+                  width: "390px",
                   margin: "auto",
                 }}
                 src={val.image}
@@ -66,6 +67,9 @@ function Model() {
 
                     <li>{val.description}</li>
                   </ul>
+                  <div className="btn btn-outline-dark btn-sm" id="readBtn">
+                    Read More <FaArrowRight />
+                  </div>
                 </Card.Text>
               </Card.Body>
             </Row>

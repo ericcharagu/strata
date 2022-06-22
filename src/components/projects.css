@@ -22,6 +22,12 @@
   --bs-bg-opacity: 0;
 }
 
+#readBtn {
+  float: right;
+  color: white;
+  border: none;
+}
+
 #modelDiv ul li {
 
   margin: auto;

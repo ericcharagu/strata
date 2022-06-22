@@ -2,7 +2,8 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes, path } from "react-router-dom";
 import Cover from "./components/cover";
 import NavBar from "./components/nav";
-
+import Services from "./components/services";
+import Mood from "./components/mood";
 import Energy from "./components/energy";
 import About from "./components/about";
 import Models from "./components/projects";

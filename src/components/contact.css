@@ -1,0 +1,25 @@
+#contactForm {
+    width: 50%;
+    margin: 0 auto
+}
+
+.submitBtn {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: solid rgb(184, 150, 65);
+    text-decoration: none;
+    color: inherit;
+    background: inherit
+}
+
+.submitBtn:hover {
+    background: rgb(184, 150, 65)
+}
+
+label {
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(184, 150, 65)
+}

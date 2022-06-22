@@ -13,8 +13,8 @@ function Footer() {
             className="card bg-secondary"
             style={{ border: "None", padding: "20px" }}
           >
-            <Card.Title style={{ float: "left" }}>
-              <img src="../images/logo.png" />
+            <Card.Title style={{ float: "left", color: "rgb(184, 150, 65)" }}>
+              <img src="../logodark.png" />
               Strata Designs
             </Card.Title>
             <Card.Body>

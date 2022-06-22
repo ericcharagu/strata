@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "./cover.css";
 import Model from "./projects";
 import About from "./about";
+import Services from "./services";
+import Mood from "./mood";
+import Contact from "./contact";
 import coverPhoto from "../img/dummy.jpg";
 
 import { Carousel, Button, Row, Col } from "react-bootstrap";
@@ -15,11 +18,13 @@ function Cover() {
         id="homeCover"
         style={{ backgroundImage: "url(" + coverPhoto + ")" }}
       />
-      <div
-        className="container-fluid"
-        style={{ margin: "auto", padding: "30px" }}
-      >
+      <div className="row" style={{ margin: "auto", padding: "30px" }}>
+        <h4 style={{ float: "center" }}>ABOUT US</h4>
         <About />
+      </div>
+      <div className="row">
+        <h4 style={{ float: "center" }}>SERVICES</h4>
+        <Services />
       </div>
       {/*  <div className="card" id="app_section">
         <img
@@ -38,10 +43,18 @@ function Cover() {
         </div>
       </div> */}
       <div>
-        <h4 style={{ float: "center", paddingBottom: "50px" , fontVariant:"small-caps"}}>
+        <h4 style={{ float: "center", paddingTop: "10px" }}>
           FEATURED PROJECTS
         </h4>
-        <Model style={{ paddingTop: "10px" }} />
+        <Model />
+      </div>
+      <div className="row">
+        <h4 style={{ float: "center" }}>MOOD</h4>
+        <Mood />
+      </div>
+      <div className="row" style={{ paddingTop: "10px" }}>
+        <h4 style={{ float: "center" }}>Get in touch</h4>
+        <Contact />
       </div>
     </div>
   );

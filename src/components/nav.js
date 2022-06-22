@@ -7,7 +7,7 @@ function NavBar() {
     <nav>
       <div className="navbar-container" id="nav">
         <Link to="/" className="navbar-logo">
-          <img src="images/logo.png" />
+          <img src="logodark.png" />
         </Link>
         {/*  <ul className="nav-list">
           <li className="nav-item">

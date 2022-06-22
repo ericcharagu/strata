@@ -34,7 +34,6 @@
 
 #numTxt {
     text-align: center;
-    justify-content: center;
     line-height: 90px;
     font-size: 4.5em;
     margin: auto;
@@ -47,9 +46,9 @@
 
 }
 
-.aboutDesc {
-    color: rgb(184, 150, 65);
-    text-align: left;
+.aboutP {
+    text-align: center;
+    margin: auto
 }
 
 h3,
