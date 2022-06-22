@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/strata/static/css/main.fd58051f.css",
+    "main.js": "/strata/static/js/main.54a8f703.js",
+    "static/js/787.f092f32e.chunk.js": "/strata/static/js/787.f092f32e.chunk.js",
+    "static/media/dummy.jpg": "/strata/static/media/dummy.d9ce68d57cf8dcdc02c0.jpg",
+    "index.html": "/strata/index.html",
+    "main.fd58051f.css.map": "/strata/static/css/main.fd58051f.css.map",
+    "main.54a8f703.js.map": "/strata/static/js/main.54a8f703.js.map",
+    "787.f092f32e.chunk.js.map": "/strata/static/js/787.f092f32e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd58051f.css",
+    "static/js/main.54a8f703.js"
+  ]
+}
