@@ -26,22 +26,6 @@ function Cover() {
         <h4 style={{ float: "center" }}>SERVICES</h4>
         <Services />
       </div>
-      {/*  <div className="card" id="app_section">
-        <img
-          className="card-img"
-          style={{ height: "80%", width: "90%" }}
-          alt="alt-Text"
-          responsive
-          src="images/app_dummy.png"
-        />
-        <div className="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-        </div>
-      </div> */}
       <div>
         <h4 style={{ float: "center", paddingTop: "10px" }}>
           FEATURED PROJECTS
