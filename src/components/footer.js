@@ -15,7 +15,7 @@ function Footer() {
           >
             <Card.Title style={{ float: "left", color: "rgb(184, 150, 65)" }}>
               <img src="../logodark.png" />
-              Strata Designs
+              Arch Company Designs
             </Card.Title>
             <Card.Body>
               The company principle of Architecture-Studio is the collective
@@ -28,7 +28,7 @@ function Footer() {
         </div>
         <div className="col-6" id="infoFooter">
           <h6>CONTACT US</h6>
-          <h5>strataemail@dummy.com</h5>
+          <h5>archcompanyl@dummy.com</h5>
           <h5>Tel: +234823823321</h5>
           <ul className="contactList">
             <li>
@@ -57,7 +57,7 @@ function Footer() {
           </ul>
         </div>
         <div className="row" id="createrFooter">
-          <p>STRATA (C) 2022. ALL RIGHTS RESERVED.Created by ME</p>
+          <p>ALL RIGHTS RESERVED.Created by ME</p>
         </div>
       </Row>
     </div>
