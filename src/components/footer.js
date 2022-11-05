@@ -9,13 +9,10 @@ function Footer() {
     <div className="container-fluid" id="footerDiv">
       <Row>
         <div className="col-6">
-          <Card
-            className="card bg-secondary"
-            style={{ border: "None", padding: "20px" }}
-          >
-            <Card.Title style={{ float: "left", color: "rgb(184, 150, 65)" }}>
-              <img src="../logodark.png" />
-              Arch Company Designs
+          <Card className="card bg-secondary" id="footerCard">
+            <Card.Title style={{ color: "rgb(184, 150, 65)" }}>
+              {/* <img src="../logodark.png" /> */}
+              Strata Designs
             </Card.Title>
             <Card.Body>
               The company principle of Architecture-Studio is the collective

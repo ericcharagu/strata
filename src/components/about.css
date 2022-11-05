@@ -1,6 +1,6 @@
 #conDiv {
     width: 70%;
-    display: flex;
+
 }
 
 .outerB {
@@ -54,5 +54,22 @@
 h3,
 p {
     padding: 10px;
+
+}
+
+@media screen and (max-width:400px) {
+
+    h3,
+    p {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap
+    }
+
+    #conDiv {
+        width: auto;
+        padding: 0;
+
+    }
 
 }

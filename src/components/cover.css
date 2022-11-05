@@ -1,5 +1,7 @@
 #coverDiv {
   width: auto;
+
+
 }
 
 #homeCover {
@@ -9,7 +11,7 @@
   height: 90vh;
   width: 100%;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

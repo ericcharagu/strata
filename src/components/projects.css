@@ -4,13 +4,30 @@
 
 .projectDetails li {
   padding: 20px;
-
 }
 
 #modelDiv {
   width: 66%;
   margin: auto;
   padding-bottom: 70px;
+
+}
+
+@media screen and (max-width:400px) {
+  #projectCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #modelDiv {
+    width: auto
+  }
+
+  .projectDetails li {
+    padding: 0px;
+  }
+
 }
 
 #modelDiv ul h3 {
@@ -32,5 +49,5 @@
 
   margin: auto;
   text-align: center;
-  float: center;
+
 }

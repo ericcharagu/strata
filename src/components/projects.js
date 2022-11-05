@@ -45,6 +45,7 @@ function Model() {
             className="card bg-secondary"
             style={{ border: "None" }}
             key={val.id}
+            id="projectCard"
           >
             <Row>
               <Card.Img
@@ -57,7 +58,7 @@ function Model() {
                 src={val.image}
                 id="cardImage"
               />
-              <Card.Body className="col-5">
+              <Card.Body className="col-5" style={{ display: "grid" }}>
                 <Card.Text>
                   <ul className="projectDetails">
                     <li>

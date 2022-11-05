@@ -2,7 +2,7 @@
     height: 15%;
     position: absolute;
     font-size: 13px;
-    ;
+
 }
 
 .contactList {
@@ -13,11 +13,19 @@
     float: right;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:400px) {
+
+    #footerCard,
     .contactList {
         display: flex;
         flex-wrap: wrap;
+        margin: 0;
         flex-direction: column;
+
+    }
+
+    .contactList li {
+        margin-left: auto;
     }
 }
 
