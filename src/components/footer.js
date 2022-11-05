@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Card, ListGroup, ListGroupItem } from "react-bootstrap";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-// import { ReactComponent as LogoMenu } from "../img/strata.svg";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./footer.css";
 
 function Footer() {
@@ -32,7 +31,7 @@ function Footer() {
               <a href="#">
                 <span>
                   {" "}
-                  <FaFacebook className="iconFa" />
+                  <FaLinkedin className="iconFa" />
                 </span>
               </a>
             </li>

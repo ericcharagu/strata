@@ -61,15 +61,17 @@ p {
 
     h3,
     p {
-        display: flex;
+
         justify-content: center;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+
     }
 
     #conDiv {
         width: auto;
         padding: 0;
-
     }
+
+
 
 }

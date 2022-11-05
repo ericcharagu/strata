@@ -21,7 +21,8 @@
   }
 
   #modelDiv {
-    width: auto
+    width: auto;
+    padding-bottom: 10px;
   }
 
   .projectDetails li {

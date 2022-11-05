@@ -18,7 +18,7 @@ function Cover() {
         id="homeCover"
         style={{ backgroundImage: "url(" + coverPhoto + ")" }}
       />
-      <div className="row" style={{ margin: "auto", padding: "30px" }}>
+      <div className="row" style={{ margin: "auto", paddingTop: "19px" }}>
         <h4 style={{ float: "center" }}>ABOUT US</h4>
         <About />
       </div>
