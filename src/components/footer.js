@@ -1,6 +1,6 @@
 import React from "react";
-import { Row, Card, ListGroup, ListGroupItem } from "react-bootstrap";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Row, Card } from "react-bootstrap";
+import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import "./footer.css";
 
 function Footer() {

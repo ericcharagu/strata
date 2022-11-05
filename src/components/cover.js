@@ -1,14 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./cover.css";
 import Model from "./projects";
 import About from "./about";
-import Services from "./services";
-
 import Contact from "./contact";
 import coverPhoto from "../img/dummy.jpg";
 
-import { Carousel, Button, Row, Col } from "react-bootstrap";
 function Cover() {
   function openModal() {}
   return (
