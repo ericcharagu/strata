@@ -12,7 +12,7 @@ function About() {
         <Card.Body>
           <div className="row">
             <div className="col">
-              <h3 style={{ color: "rgb(184, 150, 65)" }}>
+              <h3 style={{ color: "rgb(184, 150, 65)", textAlign: "center" }}>
                 Sustainable buildings for sustianable...
               </h3>
               <p className="aboutP">

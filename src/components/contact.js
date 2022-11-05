@@ -62,7 +62,7 @@ export class Contact extends Component {
           </div>
 
           <input
-            style={{ marginTop: "10px", float: "left" }}
+            style={{ marginTop: "30px", float: "center", width: "45%" }}
             type="submit"
             value="Send"
             className="submitBtn"

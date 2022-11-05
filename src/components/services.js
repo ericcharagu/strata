@@ -8,7 +8,7 @@ function Services() {
         Get in Touch
       </a>
 
-      <CardGroup>
+      {/*       <CardGroup>
         {" "}
         <Card>
           <Card.Img src="../images/sdark1.png" style={{ height: "500px" }} />
@@ -28,7 +28,7 @@ function Services() {
             <Card.Title> SUSTAINABLE DESIGN</Card.Title>
           </Card.ImgOverlay>
         </Card>
-      </CardGroup>
+      </CardGroup> */}
     </div>
   );
 }

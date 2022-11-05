@@ -4,7 +4,7 @@ import "./cover.css";
 import Model from "./projects";
 import About from "./about";
 import Services from "./services";
-import Mood from "./mood";
+
 import Contact from "./contact";
 import coverPhoto from "../img/dummy.jpg";
 
@@ -22,20 +22,17 @@ function Cover() {
         <h4 style={{ float: "center" }}>ABOUT US</h4>
         <About />
       </div>
-      <div className="row">
+      {/*       <div className="row">
         <h4 style={{ float: "center" }}>SERVICES</h4>
         <Services />
-      </div>
+      </div> */}
       <div>
         <h4 style={{ float: "center", paddingTop: "10px" }}>
           FEATURED PROJECTS
         </h4>
         <Model />
       </div>
-      <div className="row">
-        <h4 style={{ float: "center" }}>MOOD</h4>
-        <Mood />
-      </div>
+
       <div className="row" style={{ paddingTop: "10px" }}>
         <h4 style={{ float: "center" }}>Get in touch</h4>
         <Contact />
