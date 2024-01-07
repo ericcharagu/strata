@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./cover.css";
-import Model from "./projects";
+import Projects from "./projects";
 import About from "./about";
 import Contact from "./contact";
 import coverPhoto from "../img/dummy.jpg";
+import Models from "./model";
+import Services from "./services";
 
 function Cover() {
   function openModal() {}
@@ -18,15 +20,23 @@ function Cover() {
         <h4 style={{ float: "center" }}>ABOUT US</h4>
         <About />
       </div>
-      {/*       <div className="row">
+      <div className="row">
         <h4 style={{ float: "center" }}>SERVICES</h4>
         <Services />
-      </div> */}
-      <div>
-        <h4 style={{ float: "center", paddingTop: "10px" }}>
-          FEATURED PROJECTS
-        </h4>
-        <Model />
+      </div>
+      <div className="container-fluid">
+        <button className="btn">
+          <h4>Projects</h4>
+        </button>
+
+        <Projects />
+      </div>
+      <div className="container-fluid">
+        <button className="btn">
+          <h4>Models</h4>
+        </button>
+
+        <Models />
       </div>
 
       <div className="row" style={{ paddingTop: "10px" }}>

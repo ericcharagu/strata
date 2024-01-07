@@ -10,3 +10,20 @@
     color: inherit;
     background: rgb(184, 150, 65);
 }
+
+#serviceDiv {
+    width: 80%;
+    margin: auto;
+}
+
+#serviceCard {
+
+    text-align: center;
+
+}
+
+.serviceCarousel {
+    background-color: inherit;
+    /* border: 2px solid rgb(184, 150, 65); */
+    margin: 29px;
+}

@@ -1,17 +1,19 @@
 import React, { useState } from "react";
-import { Carousel } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "./projects.css";
 import { FaArrowRight } from "react-icons/fa";
-import { projectsData } from "./projectsData";
 import { Card, Table, CardGroup, Row } from "react-bootstrap";
-
-function Projects() {
+import { modelData } from "./modelData";
+function Models() {
   return (
-    <div className="container-fluid py-2" id="projectlDiv">
-      <div className="d-flex flex-row flex-nowrap">
-        {projectsData.map((val) => (
-          <Card className="card bg-secondary" key={val.id} id="projectCard">
+    <div className="container-fluid" id="projectDiv">
+      {modelData.map((val) => (
+        <CardGroup>
+          <Card
+            className="card bg-secondary"
+            style={{ border: "None" }}
+            key={val.id}
+            id="projectCard"
+          >
             <Row>
               <Card.Img
                 className="col-5"
@@ -34,10 +36,10 @@ function Projects() {
               </Card.Body>
             </Row>
           </Card>
-        ))}
-      </div>
+        </CardGroup>
+      ))}
       <div className="btn btn-outline-dark btn-sm" id="readBtn">
-        <a className="allLink" href="/all-projects">
+        <a className="allLink" href="/archmodels">
           View All
         </a>{" "}
         <FaArrowRight />
@@ -46,4 +48,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Models;

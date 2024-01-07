@@ -6,10 +6,12 @@
   padding: 20px;
 }
 
-#modelDiv {
+#projectDiv {
   width: 66%;
   margin: auto;
   padding-bottom: 70px;
+  overflow-y: hidden;
+  overflow-x: scroll;
 
 }
 
@@ -20,7 +22,7 @@
     flex-direction: column;
   }
 
-  #modelDiv {
+  #projectDiv {
     width: auto;
     padding-bottom: 10px;
   }
@@ -31,13 +33,15 @@
 
 }
 
-#modelDiv ul h3 {
+#projectDiv ul h3 {
   color: rgb(184, 150, 65)
 }
 
 /* Remove card borders */
 .bg-secondary {
   --bs-bg-opacity: 0;
+  display: inline-block;
+  flex: 0 0 auto;
 }
 
 #readBtn {
@@ -46,9 +50,14 @@
   border: none;
 }
 
-#modelDiv ul li {
+#projectDiv ul li {
 
   margin: auto;
   text-align: center;
 
+}
+
+.allLink {
+  text-decoration: none;
+  color: white;
 }

@@ -21,6 +21,17 @@
 
 }
 
+.btn {
+  /* border-bottom: 2px solid white; */
+  color: rgb(184, 150, 65);
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: rgb(184, 150, 65);
+}
+
 #app_section {
   padding: 10px;
   margin: 10px;

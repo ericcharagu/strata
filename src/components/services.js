@@ -1,34 +1,35 @@
-import React from "react";
-import { Card, CardGroup } from "react-bootstrap";
+import React, { useState } from "react";
+import { servicesData } from "./servicedata";
+import { Carousel, Card } from "react-bootstrap";
 import "./services.css";
 function Services() {
+  const [isMoreInfo, setMoreInfo] = useState(false);
+
   return (
-    <div className="container-fluid">
-      <a className="contactBtn" href="" type="button">
+    <div className="container-fluid" id="serviceDiv">
+      <Carousel
+        fade
+        className="serviceCarousel"
+        controls="false"
+        indicators="false"
+        direction="vertical"
+      >
+        <Carousel.Item>
+          {servicesData.map((data, key) => {
+            <Card className="bg-dark text-white" id="serviceCard" key={key}>
+              <Card.Body>
+                <Card.Title>{data.title}</Card.Title>
+                <Card.Subtitle>{data.desc}</Card.Subtitle>
+                <Card.Text>{data.all}</Card.Text>
+              </Card.Body>
+            </Card>;
+          })}
+        </Carousel.Item>
+      </Carousel>
+
+      <a className="contactBtn" type="button">
         Get in Touch
       </a>
-
-      {/*       <CardGroup>
-        {" "}
-        <Card>
-          <Card.Img src="../images/sdark1.png" style={{ height: "500px" }} />
-          <Card.ImgOverlay>
-            <Card.Title> INTERIOR DESIGN</Card.Title>
-          </Card.ImgOverlay>
-        </Card>
-        <Card>
-          <Card.Img src="../images/sdark1.png" style={{ height: "500px" }} />
-          <Card.ImgOverlay>
-            <Card.Title> SCHEMATIC DESIGN</Card.Title>
-          </Card.ImgOverlay>
-        </Card>
-        <Card>
-          <Card.Img src="../images/sdark1.png" style={{ height: "500px" }} />
-          <Card.ImgOverlay>
-            <Card.Title> SUSTAINABLE DESIGN</Card.Title>
-          </Card.ImgOverlay>
-        </Card>
-      </CardGroup> */}
     </div>
   );
 }
